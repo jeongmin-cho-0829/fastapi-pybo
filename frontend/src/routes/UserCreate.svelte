@@ -9,7 +9,7 @@
   let password2 = '';
   let email = '';
 
-  function pose_user(event) {
+  function post_user(event) {
     event.preventDefault();
     let url = '/api/user/create';
     let params = {
